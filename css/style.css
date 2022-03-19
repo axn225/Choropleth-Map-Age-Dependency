@@ -1,0 +1,150 @@
+.chart-title{
+	text-align:center;
+	font-size:1.8em;
+	margin:40px;
+}
+
+.County{
+	fill:#785171;
+	stroke:#ccc;
+	stroke-width:0.3px;
+}
+.State{
+	fill:none;
+	stroke:white;
+	stroke-width:1.2px;
+}
+.county-name{
+	border-bottom:1px solid rgb(230, 230, 230);
+	font-family:'Raleway', serif;
+	line-height:22px;
+	font-weight:700;
+	padding:5px;
+	text-align:center;
+}
+.ratio{
+	font-family:'Raleway', sans-serif;
+	font-size:15px;
+	padding:5px;
+}
+.map-container{
+	max-width:960px;
+	width:100%;
+}
+.key{
+	height:20px;
+	width:336px;
+	margin:auto;
+}
+
+.tooltip{
+	float:left;
+	width:350px;
+}
+.legend{
+	float:left;
+	height:20px;
+	width:40px;
+	margin-right:2px;
+}
+div.text{
+	margin:10px;
+}
+.color{
+	height:10px;
+}
+.value{
+	font-size:70%;
+	height:10px;
+}
+
+.bar{
+	border-radius:2px;
+	position:absolute;
+	float:left;  
+	background:black;
+	width:30px;
+	bottom:0;
+}
+.graph-title{
+	text-align:center;
+	font-family:'Raleway', serif;
+	line-height:22px;
+	font-weight:700;
+	height:10px;
+
+}
+.bargraph{
+	margin:auto;
+	margin-top:30px;
+	max-width:320px;
+	position:relative;
+}
+.bound {
+	position:relative;
+	margin-left:5px;
+	width:30px;
+	height:220px;
+	float:left;
+}
+.clicked{
+	stroke:yellow;
+	stroke-width:1.5px;
+
+}
+.hovered{
+	stroke:#2B2B2B;
+	stroke-width:1.5;
+}
+.axis path, .yaxis{
+	fill:none;
+	stroke:black;
+	
+}
+.map-scale path{
+	fill:none;
+}
+.undocked{
+	position:absolute;
+}
+.docked{
+	position:relative;
+}
+.axis text{
+	font:11px sans-serif;
+}
+
+.top-axis text{
+	fill:none;
+	stroke:none;
+}
+
+path {
+	stroke-linejoin:round;
+}
+
+.qrt1{
+	fill:#0571b1;
+}
+.qrt2{
+	fill:#56a1c9;
+}
+
+.qrt3{
+	fill:#a1cbe1;
+}
+.qrt4{
+	fill:#dae9f0;
+}
+.qrt5{
+	fill:#f6e0d5;
+}
+.qrt6{
+	fill:#f3b093;
+}
+.qrt7{
+	fill:#e25e59;
+}
+.qrt8{
+	fill:#c90020;
+}
