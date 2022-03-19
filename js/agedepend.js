@@ -159,7 +159,7 @@ function ready(error, usa, states) {
 
 	mapScale.append("g").attr("transform", "translate(0,"+scaleHeight+")").call(scaleXAxis);
 
-	//function to recalc variables on window resize and determine Chart status based on window Width
+	//function to recalc variables on window resize and determine whether chart is docked based on window Width
 	var calcWindow = function(){
 			windowHeight = window.innerHeight,
 			windowWidth = window.innerWidth,
