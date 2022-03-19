@@ -63,12 +63,12 @@ function ready(error, usa, states) {
 			return d.properties[entry];
 		});
 
-		d3.select(".age-depend-chart").transition().duration(500).attr("opacity", 0.85);
+		d3.select(".age-depend-chart").transition().duration(400).attr("opacity", 0.85);
 		d3.selectAll(".bargraph-row")
 			.data(data)
 			.transition()
-			.duration(600)
-			.delay(150)
+			.duration(300)
+			.delay(100)
 			.attr("width", function(d){
 				return chartX(d);
 			});
@@ -108,10 +108,10 @@ function ready(error, usa, states) {
 			}
 			//Append county to bottom of DOM to have clean stroke on hover
 			swap(this, activeCounties);
-			//Delay barchart from showing up unless user hovers half a second
+			//Delay barchart from showing up unless user hovers for .4 seconds.
 			timer = window.setTimeout(function(){
 				loadBars(d);
-				}, 500);
+				}, 400);
 		})
 		.on("mouseout", function(){
 			window.clearTimeout(timer);
