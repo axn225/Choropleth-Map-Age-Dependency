@@ -93,7 +93,7 @@ div.text{
 
 }
 .hovered{
-	stroke:#2B2B2B;
+	stroke:yellow;
 	stroke-width:1.5;
 }
 .axis path, .yaxis{
